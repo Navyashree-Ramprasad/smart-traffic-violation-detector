@@ -1,0 +1,16 @@
+lat_bin,lon_bin,violation_count,area
+40.71,-74.01,38498,NYC Downtown
+40.75,-73.99,27219,Empire State
+40.78,-73.97,22993,Central Park South
+40.76,-73.99,19338,Empire State
+40.76,-73.98,17300,Times Square
+40.71,-74.0,14480,NYC Downtown
+40.7,-74.01,13844,Wall Street
+40.75,-74.0,13000,Empire State
+40.78,-73.96,12502,Central Park South
+40.72,-74.01,6759,NYC Downtown
+40.72,-74.0,4477,NYC Downtown
+40.79,-73.97,3181,Central Park South
+40.75,-73.98,2126,Times Square
+40.7,-74.0,1850,Wall Street
+40.79,-73.96,1745,Central Park South

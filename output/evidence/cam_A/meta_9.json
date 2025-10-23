@@ -1,0 +1,14 @@
+{
+  "camera_id": "cam_A",
+  "frame_index": 9,
+  "timestamp": "2025-10-07T00:37:58.508569",
+  "bbox": [
+    330,
+    107,
+    986,
+    726
+  ],
+  "detection_confidence": 0.89,
+  "class": "motorbike",
+  "crop_path": ""
+}

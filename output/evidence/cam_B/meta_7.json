@@ -1,0 +1,14 @@
+{
+  "camera_id": "cam_B",
+  "frame_index": 7,
+  "timestamp": "2025-09-23T16:18:58.508569",
+  "bbox": [
+    147,
+    394,
+    786,
+    690
+  ],
+  "detection_confidence": 0.57,
+  "class": "bus",
+  "crop_path": ""
+}

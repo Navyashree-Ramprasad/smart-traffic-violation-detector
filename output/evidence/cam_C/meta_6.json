@@ -1,0 +1,14 @@
+{
+  "camera_id": "cam_C",
+  "frame_index": 6,
+  "timestamp": "2025-09-14T22:50:58.508569",
+  "bbox": [
+    175,
+    274,
+    936,
+    890
+  ],
+  "detection_confidence": 0.87,
+  "class": "truck",
+  "crop_path": ""
+}
