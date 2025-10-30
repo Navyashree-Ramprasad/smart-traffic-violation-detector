@@ -170,13 +170,20 @@ with tab4:
         
         for _, row in filtered_df.iterrows():
             col1, col2 = st.columns([1, 3])
+            image_filename = os.path.basename(str(row['image_path']).replace("\\", "/"))
+            image_path = os.path.join(project_root, "output", "images", image_filename)
             with col1:
-                st.image(row['image_path'], caption=f"{row['violation_type']} @ {row['camera_id']}")
+                if os.path.exists(image_path):
+                    st.image(image_path, caption=f"{row['violation_type']} @ {row['camera_id']}")
+                else:
+                    st.warning(f"Image not found: {image_filename}")
+
             with col2:
                 st.write(f"**Timestamp**: {row['timestamp']}")
                 st.write(f"**Confidence**: {row['detection_confidence']:.2f}")
                 st.write(f"**Bounding Box**: {row['bbox']}")
                 st.markdown("---")
+
         
         # 🎥 VIDEO AT BOTTOM OF THIS TAB
         st.subheader("Original Traffic Video")
